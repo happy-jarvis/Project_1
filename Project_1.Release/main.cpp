@@ -29,6 +29,7 @@ int main()
 		switch (decision)
 		{
 		case 1:
+
 			CLS;
 			cout << "Введите размер списка: ";
 			cin >> temp_length;
@@ -51,12 +52,16 @@ int main()
 			break;
 
 		case 2:
+
 			CLS;
 			cout << "ID" << TAB << "Ф.И.О." << TAB << "\tДолжность" << TAB << "Год поступления" << endl;
+			list.sorting();
 			for (int i = 0; i < temp_length; i++) list.get(i);
 			PAUSE;
 			break;
+
 		case 3:
+
 			break;
 		case 4:
 			break;

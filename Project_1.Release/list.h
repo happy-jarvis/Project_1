@@ -13,4 +13,6 @@ public:
 	void set(int length);
 	void get(int ID);
 	void fill(string name, string post, int year, int ID);
+	void sorting();
+	void swap(Worker& object_1, Worker& object_2);
 };

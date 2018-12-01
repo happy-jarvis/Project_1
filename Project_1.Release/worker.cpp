@@ -12,3 +12,8 @@ void Worker::get(int ID)
 	cout << ID + 1 << TAB << name << TAB << post << TAB "\t" << year << endl;
 }
 
+string Worker::get_name()
+{
+	return name;
+}
+
