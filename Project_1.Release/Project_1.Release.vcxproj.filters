@@ -18,9 +18,21 @@
     <ClCompile Include="..\..\..\..\Project%27s\C++\Project_1.Release\Project_1.Release\main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\Project%27s\C++\Project_1.Release\Project_1.Release\worker.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Project%27s\C++\Project_1.Release\Project_1.Release\list.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Project%27s\C++\Project_1.Release\Project_1.Release\header.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Project%27s\C++\Project_1.Release\Project_1.Release\worker.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Project%27s\C++\Project_1.Release\Project_1.Release\list.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

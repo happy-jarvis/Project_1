@@ -115,10 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Project%27s\C++\Project_1.Release\Project_1.Release\list.cpp" />
     <ClCompile Include="..\..\..\..\Project%27s\C++\Project_1.Release\Project_1.Release\main.cpp" />
+    <ClCompile Include="..\..\..\..\Project%27s\C++\Project_1.Release\Project_1.Release\worker.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Project%27s\C++\Project_1.Release\Project_1.Release\header.h" />
+    <ClInclude Include="..\..\..\..\Project%27s\C++\Project_1.Release\Project_1.Release\list.h" />
+    <ClInclude Include="..\..\..\..\Project%27s\C++\Project_1.Release\Project_1.Release\worker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
