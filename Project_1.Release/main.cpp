@@ -13,6 +13,7 @@ int main()
 	int temp_length = 0;
 	int decision = 0;
 	List list;
+	Worker temp;
 
 	do
 	{
@@ -61,7 +62,18 @@ int main()
 			break;
 
 		case 3:
-
+			CLS;
+			flush_stdin();
+			cout << "¬ведите фамилию и инициалы сотрудника: ";
+			getline(cin, temp_name);
+			cout << "¬ведите занимаемую должность(junior, middle or senior): ";
+			cin >> temp_post;
+			flush_stdin();
+			cout << "¬ведите год поступлени€ на работу: ";
+			cin >> temp_year;
+			flush_stdin();
+			temp.set(temp_name, temp_post, temp_year);
+			list += temp;
 			break;
 		case 4:
 			break;

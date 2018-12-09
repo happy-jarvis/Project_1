@@ -1,5 +1,12 @@
 #include "worker.h"
 
+Worker::Worker()
+{
+	name = " ";
+	post = " ";
+	year = 0;
+}
+
 void Worker::set(string name, string post, int year)
 {
 	this->name = name;

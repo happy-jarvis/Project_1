@@ -6,6 +6,11 @@ List::List()
 	length = 0;;
 }
 
+List::~List()
+{
+	delete[] arr;
+}
+
 void List::set(int length)
 {
 	this->length = length;
@@ -43,5 +48,15 @@ void List::swap(Worker& object_1, Worker& object_2)
 	temp = object_1;
 	object_1 = object_2;
 	object_2 = temp;
+}
+
+void List::operator+=(Worker & object)
+{
+	List temp;
+	temp.set(++length);
+	for (int i = 0; i < length; i++) temp.arr[i] = arr[i];
+	temp.arr[length] = object;
+	delete[] arr;
+	arr = temp.arr;
 }
 
